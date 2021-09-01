@@ -22,9 +22,6 @@ public class Update {
 	private JTextField textField_5;
 	private JTextField textField_7;
 
-	/**
-	 * Launch the application.
-	 */
 	
 	Connection con;
 	PreparedStatement pst;
@@ -60,16 +57,11 @@ public class Update {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
+	
 	public Update() {
 		initialize();
 	}
 
-	/**
-	 * Initialize the contents of the frame.
-	 */
 	private void initialize() {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 563, 352);
