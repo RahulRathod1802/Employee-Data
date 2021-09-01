@@ -30,11 +30,6 @@ public class ADD {
 	private JButton btnNewButton;
 	private JButton btnCancel;
 
-	/**
-	 * Launch the application.
-	 * 
-	 * 
-	 */
 	
 	
 	
@@ -76,9 +71,7 @@ public class ADD {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
+	
 	public ADD() {
 		initialize();
 	}
