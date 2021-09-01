@@ -18,9 +18,7 @@ public class Employee {
 	private JTextField textField;
 	private JTable table;
 
-	/**
-	 * Launch the application.
-	 */
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -34,9 +32,7 @@ public class Employee {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
+	
 	public Employee() {
 		initialize();
 		Connect();
@@ -68,9 +64,6 @@ public class Employee {
 	
 	
 	
-	/**
-	 * Initialize the contents of the frame.
-	 */
 	private void initialize() {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 576, 354);
